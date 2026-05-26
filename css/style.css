@@ -1,0 +1,92 @@
+/* Базові налаштування шрифту та фону */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Клас 1: Оформлення шапки сайту */
+.header-section {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Налаштування меню (Лаб №3: горизонтальне, без маркерів, hover ефект) */
+.main-menu {
+    list-style-type: none; /* Прибираємо маркери списку */
+    margin: 0;
+    padding: 0;
+    background-color: #34495e;
+    display: flex; /* Розміщуємо горизонтально */
+    justify-content: center;
+}
+
+.main-menu li {
+    margin: 0;
+}
+
+.main-menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+/* Реакція на наведення миші */
+.main-menu li a:hover {
+    background-color: #e74c3c; /* Зміна кольору фону конкретного елементу */
+}
+
+/* Клас 2: Оформлення основного контейнера контенту */
+.content-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Клас 3: Оформлення таблиці */
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.data-table th, .data-table td {
+    padding: 12px;
+    text-align: left;
+}
+
+.data-table th {
+    background-color: #2c3e50;
+    color: white;
+}
+
+/* Клас 4: Оформлення кнопки */
+.action-btn {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.action-btn:hover {
+    background-color: #2ecc71;
+}
+
+.responsive-img {
+    border-radius: 8px;
+    margin-top: 10px;
+}
